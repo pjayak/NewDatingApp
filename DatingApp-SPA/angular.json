@@ -22,16 +22,12 @@
               "src/favicon.ico",
               "src/assets"
             ],
-            "styles": [
-               {
-            "input": "./node_modules/bootstrap/dist/css/bootstrap.min.css"
-          },
-          {
-            "input": "./node_modules/font-awesome/css/font-awesome.min.css"
-          },
-          "src/styles.css"
+            "styles": [              
+                "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/alertifyjs/build/alertify.min.js"
+            ]
           },
           "configurations": {
             "production": {

@@ -70,9 +70,7 @@ return StatusCode(201);
 
         [HttpPost("login")]
         public async Task<IActionResult> Login(UserforLoginDto userForLoginDto)
-        {           
-
-           throw new Exception("Computer says no");
+        {                     
 
             var userFromRepo = await _repo.Login(userForLoginDto.Username.ToLower(), userForLoginDto.Password);
 
